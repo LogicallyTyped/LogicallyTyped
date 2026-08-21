@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "repo_root": "C:\\source\\github.com\\LogicallyTyped\\LogicallyTyped",
+  "distilled_from_sha": "e64c8f62ec7293fb661aeb0f4665622284761ce1",
+  "verification": {
+    "verified_sha": "e64c8f62ec7293fb661aeb0f4665622284761ce1",
+    "verified_at": "2026-08-16T18:34:16Z",
+    "verified_by": "claude-sonnet (TASK-5.2 supervised full run)"
+  },
+  "deterministic": {
+    "file_tree": [
+      ".ai",
+      "README.md"
+    ],
+    "dependencies": [],
+    "build_test_run": [],
+    "entrypoints": [],
+    "config_keys": [],
+    "scheduled_tasks": [],
+    "services": [],
+    "routes": [],
+    "docs_index": [
+      ".ai/CONTEXT.md",
+      ".ai/distillate.json",
+      ".ai/distillation-ollama.md"
+    ],
+    "ado_org": null,
+    "employer": null,
+    "team": null
+  },
+  "interpretive": {
+    "purpose": "GitHub profile repo for the LogicallyTyped org/user. Its README.md is the special-cased file GitHub renders on the org/user profile page; it is a short bio plus a pointer to work-activity-log, which is where the actual sanitized activity log lives.",
+    "consumers": [
+      "Anyone browsing github.com/LogicallyTyped (recruiters, collaborators, visitors) via the rendered profile page"
+    ],
+    "components": [
+      {
+        "name": "README.md",
+        "responsibility": "Bio and engineering-patterns summary rendered on the GitHub profile page; links out to work-activity-log for detailed activity."
+      }
+    ],
+    "data_flow_summary": "No data flow; this is a documentation-only repository with a single static file rendered by GitHub's profile-README feature.",
+    "integration_points": [],
+    "operational_notes": [
+      "Content edits to README.md take effect immediately on the public github.com/LogicallyTyped profile page for any visitor — there is no staging or review step."
+    ]
+  }
+}
