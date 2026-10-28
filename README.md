@@ -71,7 +71,7 @@ N/A — no operational surface.
 ## Deeper docs
 - `.ai/CONTEXT.md` — project context and standards-precedence declaration
 - `.ai/distillate.json` / `.ai/distillation-ollama.md` — machine-readable and rendered repo distillation
-- `.ai/findings.md` — pipeline findings log
+- `.ai/findings/` — open findings, one file each
 
 no `docs/architecture.md` — single-component repo, README is sufficient
 
